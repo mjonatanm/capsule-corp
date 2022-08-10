@@ -1,0 +1,23 @@
+<div class="container">
+
+  <div class="order">
+    <app-order> </app-order>
+  </div>
+    
+  <div class="result">
+    <div *ngFor="let product of products" [routerLink]="['/products/',product.id]">
+      <mat-card class="card-product">
+        <mat-card-header class="header">
+          <mat-card-title> {{ product.title }} </mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="product.img" [alt]="product.name">
+        <mat-card-content>
+          <p>
+            {{ product.name }}
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+
+</div>

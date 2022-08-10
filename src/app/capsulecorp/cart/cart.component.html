@@ -1,0 +1,25 @@
+<div class="cartview">
+
+    <h3 *ngIf="products.length > 0" class="Titlemessage"> Su carrito contiene {{products.length}} </h3>
+    <h3 *ngIf="products.length == 0" class="Subtitlemessage"> ¿No sabés qué comprar? ¡Miles de productos te esperan! <a [routerLink]="['']"> Ver Tienda </a> </h3>
+    
+    <div *ngFor="let product of products">
+        <mat-card class="box-product">
+            <mat-card-title-group>
+                <mat-card-title> {{product.name}} </mat-card-title>
+                <mat-card-subtitle> {{product.price}} </mat-card-subtitle>
+                <img mat-card-sm-image [src]="product.img" >
+            </mat-card-title-group>
+            <mat-card-content>
+                {{product.name}}
+            </mat-card-content>
+            <a (click)="deleteItem(product.id)"> Delete </a>
+        </mat-card>
+    </div>
+
+    <div *ngIf="products.length > 0" class="sectionbutton">
+        <button mat-raised-button color="primary"> Finalizar compra </button>
+        <button mat-raised-button color="warn" (click)="deleteall()"> Limpiar carrito </button>
+    </div>
+
+</div>

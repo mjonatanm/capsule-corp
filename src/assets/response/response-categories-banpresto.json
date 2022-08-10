@@ -1,0 +1,10 @@
+[
+    {
+      "id": 1,
+      "personaje": ["Broly","Gogeta","Gohan","Goku","Trunks","Vegeta"]
+    },
+    {
+      "id": 2,
+      "saga": ["Figuras Dragon Ball GT","Figuras Dragon Ball Super","Figuras Dragon Ball Z"]
+    }
+  ]

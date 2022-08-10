@@ -1,0 +1,63 @@
+.viewproduct{
+    margin: 90px;
+}
+
+img{
+    width: 400px;
+    margin-right: 50px;
+    margin: auto;
+    display: grid;
+}
+
+.distribucion{
+    /* display: flex; */
+}
+
+.title{
+    font-weight: 400;
+}
+
+.price{
+    padding: auto;
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ReviewsTitle{
+    font-size: 20px;
+}
+
+.Tab{
+    margin: 15px;
+}
+
+.Tab p{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.divcount{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.divcount div {
+    margin: 0px 20px;
+}
+
+.divbutton button{
+    margin: 0px 20px 0px 0px;
+}
+
+.stock{
+    padding-top: 20px;
+}
+
+.card-product{
+    display: grid;
+    justify-content: center;
+}

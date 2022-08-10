@@ -1,0 +1,39 @@
+.menu{
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    justify-content: left;
+}
+
+.container{
+  width: 100%;
+}
+
+span{
+  color: black;
+
+}
+
+.nameapp{
+  cursor: pointer;
+}
+  
+.logo{
+  max-width: 35px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  cursor: pointer;
+}
+
+.cart{
+  border: none;
+}
+
+.menu-color{
+  background-color: #f44a0c;
+  color: #fff;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
