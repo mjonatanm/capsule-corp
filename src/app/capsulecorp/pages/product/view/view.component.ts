@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { CapsulecorpServiceService } from 'src/app/capsulecorp/service/capsulecorp-service.service';
+import { NotificationComponent } from '../../../notification/notification.component';
 
 @Component({
   selector: 'app-view',
@@ -10,6 +11,8 @@ import { CapsulecorpServiceService } from 'src/app/capsulecorp/service/capsuleco
 export class ViewComponent implements OnInit {
 
   stock: number = 0;
+  savedMsgText: string = "";
+  showSavedMessage:boolean=false;
 
   get product(){
     var product = this.service._product;
@@ -39,14 +42,29 @@ export class ViewComponent implements OnInit {
     if (this.stock < this.product.stock) {
       this.stock += valor;
     }
+
+    if(this.stock === this.product.stock && valor == -1){
+      this.stock += valor;
+    }
   }
 
   addToCart(id:string){
     this.service.addProductToCart(id);
+    this.savedMsgText = "Tu producto se sumó al carrito exitosamente";
+    this.showmessage();
   }
 
   addToFavorite(id:string){
     this.service.addProductToFavorite(id);
+    this.savedMsgText = "Tu producto se guardó  exitosamente";
+    this.showmessage();
+  }
+
+  showmessage(){
+    this.showSavedMessage = true;
+    setTimeout(() => {
+      this.showSavedMessage = false;
+    }, 3000);
   }
 
 }

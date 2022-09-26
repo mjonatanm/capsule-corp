@@ -1,17 +1,20 @@
-.menu{
-    display: flex;
-    align-items: center;
-    /* width: 100%; */
-    justify-content: left;
+.container {
+  background: #f44a0c;
+  grid-template-columns: 20% 80%;
+  display: grid;
+  height: 64px;
+  margin-bottom: 20px;
 }
 
-.container{
-  width: 100%;
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 20px;
 }
 
 span{
   color: black;
-
 }
 
 .nameapp{
@@ -25,6 +28,18 @@ span{
   cursor: pointer;
 }
 
+.notificationIcon{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+}
+
+/* 
+.example-spacer {
+  flex: 1 1 auto;
+}
+
 .cart{
   border: none;
 }
@@ -34,6 +49,4 @@ span{
   color: #fff;
 }
 
-.example-spacer {
-  flex: 1 1 auto;
-}
+*/

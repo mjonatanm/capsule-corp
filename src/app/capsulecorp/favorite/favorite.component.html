@@ -1,5 +1,9 @@
 <div class="cartview">
 
+    <div class="toast-confirm" *ngIf="showSavedMessage">
+        <span> {{savedMsgText}}</span>
+    </div>
+
     <h3 *ngIf="productToFavorite.length > 0" class="Titlemessage"> Su lista de favoritos contiene {{productToFavorite.length}} </h3>
     <h3 *ngIf="productToFavorite.length == 0" class="Subtitlemessage"> ¿No sabés qué comprar? ¡Miles de productos te esperan! <a [routerLink]="['']"> Ver Tienda </a> </h3>
 

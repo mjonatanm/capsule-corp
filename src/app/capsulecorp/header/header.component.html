@@ -1,17 +1,9 @@
-<p>
-  <mat-toolbar color="primary" class="menu-color">
-    <div class="menu">
-      <img class="logo" src="../../../../assets/img/logo.jpg">
-      <a [routerLink]="['']" style="text-decoration: none;"><span class="nameapp"> Capsule Corp. </span> </a>
-    </div>
-    <span class="example-spacer"></span>
-
-    <button [routerLink]="['favorite']" mat-icon-button class="example-icon favorite-icon logo cart"> 
-      <mat-icon matBadge="{{countFavorite}}" matBadgeColor="primary">favorite </mat-icon> 
-    </button>
-
-    <button [routerLink]="['cart']" class="example-icon logo cart" mat-icon-button> 
-      <mat-icon matBadge="{{countCart}}" matBadge="products.length" matBadgeColor="primary">shopping_cart</mat-icon> 
-    </button>
-  </mat-toolbar>
-</p>
+<div class="container">
+  <div class="menu">
+    <img class="logo" src="../../../../assets/img/logo.jpg">
+    <a [routerLink]="['']" style="text-decoration: none;"><span class="nameapp"> Capsule Corp. </span> </a>
+  </div>
+  <div class="notificationIcon">
+    <app-notification></app-notification>
+  </div>
+</div>

@@ -35,6 +35,14 @@ export class CapsulecorpServiceService {
     return this.ProductsFavorite;
   }
 
+  get countFavorite(){
+    return this.ProductsFavorite.length
+  }
+
+  get countCart(){
+    return this.ProductsCart.length
+  }
+
   constructor( private http:HttpClient ) { 
       this.Categories = JSON.parse( localStorage.getItem('categories') !) || [];
       this.Products = JSON.parse( localStorage.getItem('products') !) || [];

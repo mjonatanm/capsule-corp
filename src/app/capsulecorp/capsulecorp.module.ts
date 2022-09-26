@@ -23,6 +23,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { NotificationComponent } from './notification/notification.component';
+import { MatBadgeModule } from '@angular/material/badge';
 
 @NgModule({
   declarations: [
@@ -32,12 +34,14 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     OrderComponent,
     ViewComponent,
     CartComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    NotificationComponent
   ],
   exports: [
     MenuComponent,
     ViewComponent,
-    CartComponent
+    CartComponent,
+    NotificationComponent
   ],
   imports: [
     CommonModule,
@@ -52,6 +56,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MatMenuModule,
     MatFormFieldModule,
     MatSnackBarModule,
+    MatBadgeModule,
     RouterModule
   ]
 })
