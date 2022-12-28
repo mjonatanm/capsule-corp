@@ -1,0 +1,85 @@
+img{
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    display: flex;
+}
+
+.card-product {
+    max-width: 300px;
+    margin: auto;
+    border-style: groove;
+    border-radius: 25px;
+    border: solid 1px #c4c4c4;
+    min-height: 300px;
+    text-align: center;
+    display:grid;
+    height: 300px;
+}
+
+.card-product:hover{
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 50%);
+    cursor: pointer;
+}
+
+.result{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.result div{
+    margin-bottom: 20px;
+}
+
+._product{
+    border: 1px solid #f1c40f;
+    grid-template-rows: auto;
+}
+
+.order{
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.header{
+    align-items: center;
+    justify-content: center;
+}
+
+.app-menu{
+    width: 260px;
+    float: left;
+    min-height: calc(100vn - 64px);
+}
+
+.app-content{
+    float: left;
+    width: calc(100% - 260px);
+}
+
+.body-container{
+    display: flex;
+    align-items: stretch;
+}
+
+.itemcategory{
+    margin-left: 10px;
+}
+
+div h3{
+    align-items: center;
+    padding-left: 16px;
+}
+
+.rol-filter{
+    appearance: auto;
+    font-size: 14px;
+    height: 33px;
+}
+
+.rol-filter-label{
+    position: absolute;
+    top: -25px;
+    font-size: 16px;
+}

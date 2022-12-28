@@ -1,0 +1,29 @@
+<div class="cartview">
+
+    <div class="toast-confirm" *ngIf="showSavedMessage">
+        <span> {{savedMsgText}}</span>
+    </div>
+
+    <h3 *ngIf="productToFavorite.length > 0" class="Titlemessage"> Su lista de favoritos contiene {{productToFavorite.length}} </h3>
+    <h3 *ngIf="productToFavorite.length == 0" class="Subtitlemessage"> ¿No sabés qué comprar? ¡Miles de productos te esperan! <a [routerLink]="['']"> Ver Tienda </a> </h3>
+
+    <div *ngFor="let product of productToFavorite">
+        <mat-card class="box-product">
+            <mat-card-title-group>
+                <mat-card-title> {{product.name}} </mat-card-title>
+                <mat-card-subtitle> {{product.price}} </mat-card-subtitle>
+                <img mat-card-sm-image [src]="product.img" >
+            </mat-card-title-group>
+            <mat-card-content>
+                {{product.name}}
+            </mat-card-content>
+            <a (click)="deleteItemfavorite(product.id)"> Delete </a>
+            <a (click)="addtoCart(product.id)"> Add to Cart </a>
+        </mat-card>
+    </div>
+
+    <div *ngIf="productToFavorite.length > 0" class="sectionbutton">
+        <button mat-raised-button color="primary" (click)="addAlltoCart()"> Add all to cart </button>
+        <button mat-raised-button color="warn" (click)="deleteAllFavorite()"> Delete All </button>
+    </div>
+</div>

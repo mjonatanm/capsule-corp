@@ -1,0 +1,68 @@
+<div class="body-container">
+  
+  <div class="app-menu">
+    <div class="bg-dark border-right">
+      <h3 class="text-light"> Categorias </h3>  
+      <hr class="text-white">  
+      <div class="list-group list-reset">
+
+        <mat-nav-list role="list">
+          <mat-list-item (click)="cleanfilter()" mat-subheader> Todos los productos </mat-list-item>     
+        </mat-nav-list>
+  
+        <mat-nav-list role="list">
+          <div mat-subheader> Personajes </div>
+          <div *ngFor="let cate of categories" class="itemcategory">
+            <mat-list-item class="itemcategory" *ngFor="let personaje of cate.personaje" (click)="filtrar(personaje)"> 
+             {{ personaje }}
+            </mat-list-item>
+          </div>        
+        </mat-nav-list>
+  
+        <mat-nav-list role="list">
+          <div mat-subheader> Sagas </div>
+          <div *ngFor="let cate of categories" class="itemcategory">
+            <mat-list-item *ngFor="let saga of cate.saga" (click)="filtrar(saga)"> 
+              {{ saga }} 
+            </mat-list-item>
+          </div>        
+        </mat-nav-list>
+    
+      </div>
+    </div>
+  </div>
+
+  <div class="app-content">
+      <mat-paginator 
+      [length]="Totalproducts"
+      [pageSize]="paginatorRequest.rowsPage"
+      [pageSizeOptions]="[10,20]"
+      (page)="OnPageChange($event)"
+      aria-label="Select page">
+    </mat-paginator>
+
+    <div class="order">
+      <button mat-button [matMenuTriggerFor]="beforeMenu"> Ordenar por </button>
+      <mat-menu  #beforeMenu="matMenu" xPosition="before" [(ngModel)]="filter">
+        <button mat-menu-item class="rol-filter" (click)="filtrar(order.value)" *ngFor="let order of orderby"> {{ order.description }}</button>
+      </mat-menu>
+    </div>
+    
+    <div class="result">
+      <div *ngFor="let product of products" [routerLink]="['/products/',product.id]">
+        <mat-card class="card-product">
+          <mat-card-header class="header">
+            <mat-card-title> {{ product.title }}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image [src]="product.img" [alt]="product.name">
+          <mat-card-content>
+            <p>
+              {{ product.name }}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+
+</div>

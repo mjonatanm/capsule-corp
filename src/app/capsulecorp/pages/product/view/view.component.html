@@ -1,0 +1,59 @@
+<div class="viewproduct">
+
+  <div class="toast-confirm" *ngIf="showSavedMessage">
+    <span> {{savedMsgText}}</span>
+  </div>
+
+  <mat-card class="card-product">
+    <div class="distribucion">
+      <img mat-card-image [src]="product.img" [alt]="product.name">
+      <mat-card-content>
+        <mat-card-title class="title"> {{ product.name }} </mat-card-title>
+        <p class="price">
+          € {{ product.price }}
+        </p>
+
+        <div class="divcount">
+          <button mat-icon-button (click)="addremove(-1)"><mat-icon>remove_circle</mat-icon></button>
+          <div> {{ stock }} </div>
+          <button mat-icon-button (click)="addremove(1)"> <mat-icon>add_circle</mat-icon> </button>
+        </div>
+        
+        <div class="divbutton">
+          <button *ngIf="product.stock > 0" (click)="addToCart(product.id)" mat-raised-button color="primary">Add cart</button>
+          <button (click)="addToFavorite(product.id)" mat-raised-button color="primary">Add favorite</button>
+        </div>
+
+        <p class="stock"> {{ product.stock | i18nPlural:mensajeStock }}</p>
+        
+      </mat-card-content>
+    </div>      
+  </mat-card>
+
+  <mat-tab-group>
+    <mat-tab label="Description">
+      <div class="Tab">
+        <b class="ReviewsTitle">Descripción</b>
+        <p>
+          ¡Añade la figura de la línea Ichibansho de {{ product.name }} a tu colección de figuras de Dragon Ball!
+          <br/>
+          La colección Ichibansho es una colección en la que Banpresto nos presenta las figuras que lanza originalmente como Ichiban Kuji. Estos Kujis son normalmente exclusivos de Japón, por lo que es una manera perfecta para conseguir las figuras exclusivas. En ella potenciamos el visual de la figura para que represente las cualidades de cada personaje haciendo que los acabados (traje, texturas, sombreado..) y la pose sean lo principal.
+          <br/>
+          Banpresto es uno de los mayores fabricantes Japoneses de Figuras a nivel mundial. Perteneciente al grupo Bandai Spirits, esta empresa ofrece una calidad precio única. Actualmente dispone de múltiples líneas diferentes para que todos los fans puedan tener en su colección una figura que se adapte a su manera de disfrutar del mundo de las figuras.
+          <br/>
+          Calidad, detalle y sobre todo espíritu emprendedor hacen de Banpresto la mayor compañía del mundo de figuras ofreciendo cada mes cientos de figuras de diferentes franquicias como Dragon Ball, One Piece, Naruto, Sword Art Online… para que todos podamos disfrutar de nuestra afición al máximo nivel sin gastarnos mucho en cada figura.
+        </p>
+    </div>
+    </mat-tab>
+    <mat-tab label="Reviews"> 
+      <div class="Tab">
+        <b class="ReviewsTitle">Valoraciones</b>          
+        <p>
+          No hay valoraciones aún.
+          <br/>
+          Solo los usuarios registrados que hayan comprado este producto pueden hacer una valoración.      
+        </p>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>

@@ -1,0 +1,52 @@
+.container {
+  background: #f44a0c;
+  grid-template-columns: 20% 80%;
+  display: grid;
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 20px;
+}
+
+span{
+  color: black;
+}
+
+.nameapp{
+  cursor: pointer;
+}
+  
+.logo{
+  max-width: 35px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  cursor: pointer;
+}
+
+.notificationIcon{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+}
+
+/* 
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.cart{
+  border: none;
+}
+
+.menu-color{
+  background-color: #f44a0c;
+  color: #fff;
+}
+
+*/

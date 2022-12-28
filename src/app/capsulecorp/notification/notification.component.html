@@ -1,0 +1,7 @@
+<button [routerLink]="['favorite']" mat-icon-button class="example-icon favorite-icon logo cart"> 
+  <mat-icon matBadge="{{countFavorite}}" matBadgeColor="primary">favorite </mat-icon> 
+</button>
+
+<button [routerLink]="['cart']" class="example-icon logo cart" mat-icon-button> 
+  <mat-icon matBadge="{{countCart}}" matBadge="products.length" matBadgeColor="primary">shopping_cart</mat-icon> 
+</button>
