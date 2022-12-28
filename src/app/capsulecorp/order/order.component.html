@@ -1,0 +1,8 @@
+<div id="order">
+    <button mat-button [matMenuTriggerFor]="afterMenu">Order by <span>Featured</span></button>
+    <mat-menu #afterMenu="matMenu"> 
+      <button (click)="filter('low')" mat-menu-item>Price: Low to High</button>
+      <button (click)="filter('high')" mat-menu-item>Price: High to Low</button>
+      <button (click)="filter('name')" mat-menu-item>Name</button>
+    </mat-menu>
+</div>
