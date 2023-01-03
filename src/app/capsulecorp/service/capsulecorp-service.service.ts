@@ -118,7 +118,7 @@ export class CapsulecorpServiceService {
 
     this.http.get<Newresponseproducts[]>( `${_url}`, {observe: 'response'})
     .subscribe(resp => {
-    
+
     this.Products.splice(0,this.Products.length);
     resp.body?.forEach(resp => {
       this.Products.push(resp);

@@ -16,7 +16,7 @@
             <mat-list-item class="itemcategory" *ngFor="let personaje of cate.personaje" (click)="filtrar(personaje)"> 
              {{ personaje }}
             </mat-list-item>
-          </div>        
+          </div>            
         </mat-nav-list>
   
         <mat-nav-list role="list">
@@ -38,7 +38,8 @@
       [pageSize]="paginatorRequest.rowsPage"
       [pageSizeOptions]="[10,20]"
       (page)="OnPageChange($event)"
-      aria-label="Select page">
+      aria-label="Select page"
+      #paginador>
     </mat-paginator>
 
     <div class="order">

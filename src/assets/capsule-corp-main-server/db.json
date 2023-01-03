@@ -1,0 +1,1234 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "personaje": ["Broly","Gogeta","Gohan","Goku","Trunks","Vegeta"]
+    },
+    {
+      "id": 2,
+      "saga": ["Figuras Dragon Ball GT","Figuras Dragon Ball Super","Figuras Dragon Ball Z"]
+    }
+  ],
+  "products": [
+    {
+      "id": "34923",
+      "sku": "BP60211",
+      "price": 23.13,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34923",
+          "sku": "BP60211",
+          "gpf": "woocommerce_gpf_34923",
+          "gla": "gla_34923"
+      },
+      "isVariable": false,
+      "name": "Figura Ichibansho Pilaf Dragon Ball (Ex Mystical Adventure)",
+      "title": "Pilaf",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Ichibansho"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/06/logo_60211-300x300.jpg"
+  },
+  {
+      "id": "9177",
+      "sku": "BP17866",
+      "price": 32,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "9177",
+          "sku": "BP17866",
+          "gpf": "woocommerce_gpf_9177",
+          "gla": "gla_9177"
+      },
+      "isVariable": false,
+      "name": "Son Gohan Figura Dragon Ball Z - Master Stars Piece",
+      "title": "Son Gohan",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Gohan",
+          "Ofertas"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/18264-logo_17046_36205-300x300.jpg"
+  },
+  {
+      "id": "34918",
+      "sku": "BP60208",
+      "price": 28.92,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34918",
+          "sku": "BP60208",
+          "gpf": "woocommerce_gpf_34918",
+          "gla": "gla_34918"
+      },
+      "isVariable": false,
+      "name": "Figura Ichibansho Son Goku (Ex Mystical Adventure)",      
+      "title": "Son Goku",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Goku",
+          "Ichibansho",
+          "Novedades"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/06/logo_60208-300x300.jpg"
+  },
+  {
+      "id": "34919",
+      "sku": "BP60209",
+      "price": 49.58,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34919",
+          "sku": "BP60209",
+          "gpf": "woocommerce_gpf_34919",
+          "gla": "gla_34919"
+      },
+      "isVariable": false,
+      "name": "Figura Ichibansho Demon Piccolo Daimaoh (Ex Mystical Adventure)",
+      "title": "Piccolo Daimaoh",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Ichibansho",
+          "Novedades",
+          "Piccolo"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/06/logo_60209-300x300.jpg"
+  },
+  {
+      "id": "9390",
+      "sku": "BP17195",
+      "price": 23.79,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "9390",
+          "sku": "BP17195",
+          "gpf": "woocommerce_gpf_9390",
+          "gla": "gla_9390"
+      },
+      "isVariable": false,
+      "name": "Super Saiyan Son Goku Figura Dragon Ball Super Son Goku Fes!! Vol. 12",
+      "title": "Son Goku",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Goku",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP17195-300x300.jpg"
+  },
+  {
+      "id": "11949",
+      "sku": "BP18025",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "11949",
+          "sku": "BP18025",
+          "gpf": "woocommerce_gpf_11949",
+          "gla": "gla_11949"
+      },
+      "isVariable": false,
+      "name": "Figura Cell Dragon Ball Z - Banpresto World Figure Colosseum Vol.4 - Cell",
+      "title": "Cell",
+      "stock": 3,
+      "category": [
+          "Cell",
+          "Figuras Dragon Ball Z",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/11/bp18025_frente-300x300.png"
+  },
+  {
+      "id": "34160",
+      "sku": "BP18463",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34160",
+          "sku": "BP18463",
+          "gpf": "woocommerce_gpf_34160",
+          "gla": "gla_34160"
+      },
+      "isVariable": false,
+      "name": "Figura Goku - Dragon Ball Super - Super Zenkai Solid Vol.3",
+      "title": "Goku",
+      "stock": 4,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Goku",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/05/logo_18463_2575164_1-1-300x300.jpg"
+  },
+  {
+      "id": "32899",
+      "sku": "BP35808",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "32899",
+          "sku": "BP35808",
+          "gpf": "woocommerce_gpf_32899",
+          "gla": "gla_32899"
+      },
+      "isVariable": false,
+      "name": "Figura Son Goku - Dragon Ball Super Son Goku Fes!! Vol.9 (A:Kids)",
+      "title": "Son Goku",
+      "stock": 1,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Goku",
+          "Novedades"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/04/bp35808_frente-300x300.jpg"
+  },
+  {
+      "id": "32892",
+      "sku": "BP18313",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "32892",
+          "sku": "BP18313",
+          "gpf": "woocommerce_gpf_32892",
+          "gla": "gla_32892"
+      },
+      "isVariable": false,
+      "name": "Figura Son Goku Super Saiyan 4 - Dragon Ball GT Tag",
+      "title": "Son Goku Super Saiyan 4",
+      "stock": 2,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball GT",
+          "Goku",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/06/bp18313_angulo-300x300.jpg"
+  },
+  {
+      "id": "32894",
+      "sku": "BP18314",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "32894",
+          "sku": "BP18314",
+          "gpf": "woocommerce_gpf_32894",
+          "gla": "gla_32894"
+      },
+      "isVariable": false,
+      "name": "Figura Vegeta Super Saiyan 4 - Dragon Ball GT Tag Fighters",
+      "title": "Vegeta Super Saiyan 4",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball GT",
+          "Novedades",
+          "Vegeta",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/04/bp18314_frente-300x300.jpg"
+  },
+  {
+      "id": "34579",
+      "sku": "BP18461",
+      "price": 28.92,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34579",
+          "sku": "BP18461",
+          "gpf": "woocommerce_gpf_34579",
+          "gla": "gla_34579"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Z - Solid Edge Works Vol.3 (A:Vegeta)",
+      "title": "Vegeta",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Novedades",
+          "Vegeta",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/05/logo_18461_2545974_1-1-300x300.jpg"
+  },
+  {
+      "id": "32784",
+      "sku": "BP18387",
+      "price": 28.92,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "32784",
+          "sku": "BP18387",
+          "gpf": "woocommerce_gpf_32784",
+          "gla": "gla_32784"
+      },
+      "isVariable": false,
+      "name": "Figura Vegeta - Dragon Ball Z - Dokkan Batlle",
+      "title": "Vegeta",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Novedades",
+          "Vegeta",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/04/bp18387_frente-300x300.jpg"
+  },
+  {
+      "id": "13516",
+      "sku": "BP35928",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "13516",
+          "sku": "BP35928",
+          "gpf": "woocommerce_gpf_13516",
+          "gla": "gla_13516"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Super - Super Saiyan Vegeta",
+      "title": "Super Saiyan Vegeta",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Vegeta",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/04/bp35928_angulo-300x300.jpg"
+  },
+  {
+      "id": "12994",
+      "sku": "BP60184",
+      "price": 49.58,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "12994",
+          "sku": "BP60184",
+          "gpf": "woocommerce_gpf_12994",
+          "gla": "gla_12994"
+      },
+      "isVariable": false,
+      "name": "Ichibansho Figura Super Saiyan 4 Gogeta - Vs Omnibus Super - Dragon Ball Super",
+      "title": "Super Saiyan 4 Gogeta",
+      "stock": 5,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "gogeta",
+          "Ichibansho",
+          "Novedades"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/10/bp60184_frente-300x300.jpg"
+  },
+  {
+      "id": "17985",
+      "sku": "BP17849",
+      "price": 20,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "17985",
+          "sku": "BP17849",
+          "gpf": "woocommerce_gpf_17985",
+          "gla": "gla_17985"
+      },
+      "isVariable": false,
+      "name": "Figura Gogeta Super Saiyan - Dragon Ball Super Son Goku Fes!! Vol.15 20cm Banpresto",
+      "title": "Gogeta Super Saiyan",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "gogeta",
+          "Ofertas",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/11/bp17849_concaja-300x300.png"
+  },
+  {
+      "id": "12358",
+      "sku": "BP17339",
+      "price": 30,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "12358",
+          "sku": "BP17339",
+          "gpf": "woocommerce_gpf_12358",
+          "gla": "gla_12358"
+      },
+      "isVariable": false,
+      "name": "Figura Ichibansho Yamcha Spirit Ball - Dragon Ball Z",
+      "title": "Yamcha",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Goku",
+          "Ichibansho",
+          "Novedades"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP17339-300x300.jpg"
+  },
+  {
+      "id": "11837",
+      "sku": "BP18099",
+      "price": 20,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "11837",
+          "sku": "BP18099",
+          "gpf": "woocommerce_gpf_11837",
+          "gla": "gla_11837"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Super Saiyan God Super Saiyan Vegeta (Evolution)",
+      "title": "Super Saiyan Vegeta",
+      "stock": 5,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Ofertas",
+          "Vegeta"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/bp18099_frente-300x300.jpg"
+  },
+  {
+      "id": "12420",
+      "sku": "BP17436",
+      "price": 15,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "12420",
+          "sku": "BP17436",
+          "gpf": "woocommerce_gpf_12420",
+          "gla": "gla_12420"
+      },
+      "isVariable": false,
+      "name": "Figura Q Posket - Dragon Ball Z - Lunch (Ver. A)",
+      "title": "Lunch",
+      "stock": 0,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Ofertas",
+          "Q Posket",
+          "Qposket Dragon ball"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP17436-300x300.jpg"
+  },
+  {
+      "id": "13506",
+      "sku": "BP35379",
+      "price": 61.98,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "13506",
+          "sku": "BP35379",
+          "gpf": "woocommerce_gpf_13506",
+          "gla": "gla_13506"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Z - Master Stars Piece - The Trunks Manga Dimensions",
+      "title": "The Trunks Manga Dimensions",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Novedades",
+          "Trunks",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP35379-300x300.jpg"
+  },
+  {
+      "id": "11504",
+      "sku": "BP17314",
+      "price": 19,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "11504",
+          "sku": "BP17314",
+          "gpf": "woocommerce_gpf_11504",
+          "gla": "gla_11504"
+      },
+      "isVariable": false,
+      "name": "Figura Trunks Dragon Ball GT Ultimate Soldiers (A:TRUNKS)",
+      "title": "TRUNKS",
+      "stock": 0,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball GT",
+          "Novedades",
+          "Trunks",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP17314-300x300.jpg"
+  },
+  {
+      "id": "13447",
+      "sku": "BP17634",
+      "price": 16,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "13447",
+          "sku": "BP17634",
+          "gpf": "woocommerce_gpf_13447",
+          "gla": "gla_13447"
+      },
+      "isVariable": false,
+      "name": "Figura Q Posket - Bulma Ⅱ - Dragon Ball (Ver.B)",
+      "title": "Bulma Ⅱ",
+      "stock": 3,
+      "category": [
+          "Bulma",
+          "Dragon Ball",
+          "Ofertas",
+          "Q Posket",
+          "Qposket Dragon ball"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP17634-300x300.jpg"
+  },
+  {
+      "id": "34924",
+      "sku": "BP60212",
+      "price": 49.58,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34924",
+          "sku": "BP60212",
+          "gpf": "woocommerce_gpf_34924",
+          "gla": "gla_34924"
+      },
+      "isVariable": false,
+      "name": "Figura Ichibansho Shu＆Mai (Ex Mystical Adventure)",
+      "title": "Shu＆Mai",
+      "stock": 1,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Ichibansho",
+          "Novedades"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/06/logo_60212-300x300.jpg"
+  },
+  {
+      "id": "34921",
+      "sku": "BP60210",
+      "price": 49.58,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34921",
+          "sku": "BP60210",
+          "gpf": "woocommerce_gpf_34921",
+          "gla": "gla_34921"
+      },
+      "isVariable": false,
+      "name": "Figura Ichibansho Taopaipai (Ex Mystical Adventure)",
+      "title": "Taopaipai",
+      "stock": 1,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Ichibansho",
+          "Novedades"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/06/logo_60210-300x300.jpg"
+  },
+  {
+      "id": "34583",
+      "sku": "BP18261",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34583",
+          "sku": "BP18261",
+          "gpf": "woocommerce_gpf_34583",
+          "gla": "gla_34583"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Collection Vol.3 (B:Chichi)",
+      "title": "Chichi",
+      "stock": 1,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/05/18261_-300x300.jpg"
+  },
+  {
+      "id": "34582",
+      "sku": "BP18262",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34582",
+          "sku": "BP18262",
+          "gpf": "woocommerce_gpf_34582",
+          "gla": "gla_34582"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Collection (B:Krillin)",
+      "title": "Krillin",
+      "stock": 4,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "krilin",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/05/18262_-300x300.jpg"
+  },
+  {
+      "id": "34580",
+      "sku": "BP18462",
+      "price": 28.92,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34580",
+          "sku": "BP18462",
+          "gpf": "woocommerce_gpf_34580",
+          "gla": "gla_34580"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Z - Solid Edge Works Vol.3 (B:Super Saiyan Vegeta)",
+      "title": "Super Saiyan Vegeta",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/05/logo_18462_2545974_1-1-300x300.jpg"
+  },
+  {
+      "id": "34170",
+      "sku": "BP18460",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "34170",
+          "sku": "BP18460",
+          "gpf": "woocommerce_gpf_34170",
+          "gla": "gla_34170"
+      },
+      "isVariable": false,
+      "name": "Figura The Krillin - Dragon Ball Z G×Materia",
+      "title": "Krillin",
+      "stock": 2,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "krilin",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/05/logo_18460_2579051_1-300x300.jpg"
+  },
+  {
+      "id": "32782",
+      "sku": "BP18386",
+      "price": 28.92,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "32782",
+          "sku": "BP18386",
+          "gpf": "woocommerce_gpf_32782",
+          "gla": "gla_32782"
+      },
+      "isVariable": false,
+      "name": "Figura Goku - Dragon Ball Z - Dokkan Batlle Collab 2022 Vol.1",
+      "title": "Goku",
+      "stock": 5,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Goku",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/04/bp18386_frente-300x300.jpg"
+  },
+  {
+      "id": "32221",
+      "sku": "BP18233",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "32221",
+          "sku": "BP18233",
+          "gpf": "woocommerce_gpf_32221",
+          "gla": "gla_32221"
+      },
+      "isVariable": false,
+      "name": "Figura Son Goku Hurry! Flying Nimbus!! - Dragon Ball Z",
+      "title": "Son Goku",
+      "stock": 5,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Goku",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/02/bp18233_frente-300x300.png"
+  },
+  {
+      "id": "14787",
+      "sku": "BP18388",
+      "price": 34.99,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "14787",
+          "sku": "BP18388",
+          "gpf": "woocommerce_gpf_14787",
+          "gla": "gla_14787"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Z - Burning Fighters Vol.2 (A:Vegeta)",
+      "title": "Vegeta",
+      "stock": 4,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/10/bp18388_frente-300x300.jpg"
+  },
+  {
+      "id": "14791",
+      "sku": "BP18389",
+      "price": 28,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "14791",
+          "sku": "BP18389",
+          "gpf": "woocommerce_gpf_14791",
+          "gla": "gla_14791"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Z - Burning Fighters Vol.2 (B:Son Goku)",
+      "title": "Son Gokuh",
+      "stock": 2,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Goku",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/10/bp18389_frente-300x300.jpg"
+  },
+  {
+      "id": "13513",
+      "sku": "BP35927",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "13513",
+          "sku": "BP35927",
+          "gpf": "woocommerce_gpf_13513",
+          "gla": "gla_13513"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Super - Super Saiyan Son Goku",
+      "title": "Super Saiyan Son Goku",
+      "stock": 2,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Goku",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/04/bp35927_frente-300x300.jpg"
+  },
+  {
+      "id": "13596",
+      "sku": "BP18208",
+      "price": 33.05,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "13596",
+          "sku": "BP18208",
+          "gpf": "woocommerce_gpf_13596",
+          "gla": "gla_13596"
+      },
+      "isVariable": false,
+      "name": "Figura de Acción Goku - Dragon Ball Super",
+      "title": "Goku",
+      "stock": 0,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Goku",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/09/s-l400-1-300x300.jpg"
+  },
+  {
+      "id": "11828",
+      "sku": "BP18096",
+      "price": 37.18,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "11828",
+          "sku": "BP18096",
+          "gpf": "woocommerce_gpf_11828",
+          "gla": "gla_11828"
+      },
+      "isVariable": false,
+      "name": "Figura Super Saiyan God Super Saiyan Vegito",
+      "title": "uper Saiyan Vegito",
+      "stock": 2,
+      "category": [
+          "Figuras Dragon Ball Super",
+          "Novedades"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP18096-300x300.jpg"
+  },
+  {
+      "id": "12992",
+      "sku": "BP60183",
+      "price": 57.84,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "12992",
+          "sku": "BP60183",
+          "gpf": "woocommerce_gpf_12992",
+          "gla": "gla_12992"
+      },
+      "isVariable": false,
+      "name": "Ichibansho Figura Super Saiyan Broly",
+      "title": "Super Saiyan Broly",
+      "stock": 3,
+      "category": [
+          "Broly",
+          "Dragon Ball",
+          "Ichibansho",
+          "Novedades"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/10/bp60183_frente-300x300.jpg"
+  },
+  {
+      "id": "30178",
+      "sku": "BP17846",
+      "price": 28.93,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "30178",
+          "sku": "BP17846",
+          "gpf": "woocommerce_gpf_30178",
+          "gla": "gla_30178"
+      },
+      "isVariable": false,
+      "name": "Figura The Yamcha de Dragon Ball Z GxMateria",
+      "title": "Yamcha",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP17846-min-300x300.jpg"
+  },
+  {
+      "id": "8760",
+      "sku": "VE56204",
+      "price": 11.77,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "8760",
+          "sku": "VE56204",
+          "gpf": "woocommerce_gpf_8760",
+          "gla": "gla_8760"
+      },
+      "isVariable": false,
+      "name": "Figura Accion Dragon Ball Super Chibi Master Son Goku",
+      "title": "Son Goku",
+      "stock": 0,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Goku",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/03/56204-300x300.jpg"
+  },
+  {
+      "id": "11025",
+      "sku": "BP17978",
+      "price": 33.06,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "11025",
+          "sku": "BP17978",
+          "gpf": "woocommerce_gpf_11025",
+          "gla": "gla_11025"
+      },
+      "isVariable": false,
+      "name": "Super Saiyan God Super Saiyan Vegeta Figura",
+      "title": "Vegeta",
+      "stock": 0,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Novedades",
+          "Vegeta"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP17978-300x300.jpg"
+  },
+  {
+      "id": "11833",
+      "sku": "BP18098",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "11833",
+          "sku": "BP18098",
+          "gpf": "woocommerce_gpf_11833",
+          "gla": "gla_11833"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Super Son Goku Fes!! vol.16 (B:Son Goku)",
+      "title": "Son Goku",
+      "stock": 2,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Goku",
+          "Novedades"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP18098-300x300.jpg"
+  },
+  {
+      "id": "11830",
+      "sku": "BP18097",
+      "price": 27.26,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "11830",
+          "sku": "BP18097",
+          "gpf": "woocommerce_gpf_11830",
+          "gla": "gla_11830"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Super Son Goku Fes!! vol.16 (A:Super Saiyan Son Goku(KIDS))",
+      "title": "Son Goku kid",
+      "stock": 1,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Goku",
+          "Novedades"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP18097-300x300.jpg"
+  },
+  {
+      "id": "13504",
+      "sku": "BP18139",
+      "price": 41.31,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "13504",
+          "sku": "BP18139",
+          "gpf": "woocommerce_gpf_13504",
+          "gla": "gla_13504"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball Super - Grandista Nero - Goku Black",
+      "title": "Goku Black",
+      "stock": 3,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Goku",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2022/02/bp18139_frente-300x300.png"
+  },
+  {
+      "id": "9271",
+      "sku": "BP17756",
+      "price": 24,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "9271",
+          "sku": "BP17756",
+          "gpf": "woocommerce_gpf_9271",
+          "gla": "gla_9271"
+      },
+      "isVariable": false,
+      "name": "Super Saiyan Son Goku Figura Dragon Ball Super - Super Zenkai Solid Vol. 1",
+      "title": "Son Goku",
+      "stock": 2,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Super",
+          "Goku",
+          "Ofertas",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP17756-300x300.jpg"
+  },
+  {
+      "id": "11826",
+      "sku": "BP18095",
+      "price": 31.4,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "11826",
+          "sku": "BP18095",
+          "gpf": "woocommerce_gpf_11826",
+          "gla": "gla_11826"
+      },
+      "isVariable": false,
+      "name": "Figura The Son Goku II de Dragon Ball Gxmateria",
+      "title": "Son Goku II",
+      "stock": 5,
+      "category": [
+          "Dragon Ball",
+          "Goku",
+          "Novedades",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP18095-300x300.jpg"
+  },
+  {
+      "id": "9253",
+      "sku": "BP17751",
+      "price": 24,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "9253",
+          "sku": "BP17751",
+          "gpf": "woocommerce_gpf_9253",
+          "gla": "gla_9253"
+      },
+      "isVariable": false,
+      "name": "Kaioken Son Goku Figura Dragon Ball Z Blood of Saiyans Special X",
+      "title": "Son Goku",
+      "stock": 2,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Goku",
+          "Ofertas"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/04/BP17751-300x300.jpg"
+  },
+  {
+      "id": "13183",
+      "sku": "BP17530",
+      "price": 57.85,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "13183",
+          "sku": "BP17530",
+          "gpf": "woocommerce_gpf_13183",
+          "gla": "gla_13183"
+      },
+      "isVariable": false,
+      "name": "Ichibansho Figura de Son Goku And Frieza",
+      "title": "Son Goku And Frieza",
+      "stock": 4,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Goku",
+          "Ichibansho",
+          "Novedades",
+          "Licencia",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/09/logo_17530-300x300.jpg"
+  },
+  {
+      "id": "13201",
+      "sku": "BP17536",
+      "price": 30,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "13201",
+          "sku": "BP17536",
+          "gpf": "woocommerce_gpf_13201",
+          "gla": "gla_13201"
+      },
+      "isVariable": false,
+      "name": "Ichibansho Figura de Son Goku - Dragon Ball",
+      "title": "Son Goku",
+      "stock": 4,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Goku",
+          "Ichibansho",
+          "Ofertas"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/11/goku_bola_dragon_frente-300x300.png"
+  },
+  {
+      "id": "18013",
+      "sku": "BP17847",
+      "price": 21,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "18013",
+          "sku": "BP17847",
+          "gpf": "woocommerce_gpf_18013",
+          "gla": "gla_18013"
+      },
+      "isVariable": false,
+      "name": "Figura Goku Super Saiyan - Dragon Ball Z",
+      "title": "Goku Super Saiyan",
+      "stock": 2,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Goku",
+          "Ofertas",
+          "Banpresto"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/11/17847_2561560-300x300.jpg"
+  },
+  {
+      "id": "12388",
+      "sku": "BP17554",
+      "price": 18,
+      "brand": "",
+      "quantity": 1,
+      "dyn_r_ids": {
+          "post_id": "12388",
+          "sku": "BP17554",
+          "gpf": "woocommerce_gpf_12388",
+          "gla": "gla_12388"
+      },
+      "isVariable": false,
+      "name": "Figura Dragon Ball - Son Goku - Match Makers - Banpresto",
+      "title": "Son Goku",
+      "stock": 1,
+      "category": [
+          "Dragon Ball",
+          "Figuras Dragon Ball Z",
+          "Goku",
+          "Ofertas"
+      ],
+      "isVariation": false,
+      "img": "https://www.banpresto.es/wp-content/uploads/2021/07/17554__68327.1608834931-265x300.jpg"
+  }
+  ]
+}

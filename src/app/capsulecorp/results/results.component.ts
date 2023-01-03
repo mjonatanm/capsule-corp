@@ -1,6 +1,6 @@
 import { HttpParams } from '@angular/common/http';
-import { Component, Input } from '@angular/core';
-import { PageEvent } from '@angular/material/paginator';
+import { Component, Input, ViewChild } from '@angular/core';
+import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { PaginatorRequestModel } from '../interfaces/PaginatorRequestModel';
 import { CapsulecorpServiceService } from '../service/capsulecorp-service.service';
 import { Order } from '../interfaces/Order';
@@ -11,6 +11,8 @@ import { Order } from '../interfaces/Order';
   styleUrls:['./results.component.css']
 })
 export class ResultsComponent {
+
+  @ViewChild(MatPaginator) paginador!: MatPaginator;
 
   public _sort : string = '';
   public _order : string = '';
@@ -56,6 +58,7 @@ export class ResultsComponent {
 
   constructor(private service:CapsulecorpServiceService) {
     this.service.getTotal();
+    console.log('empieza')
     const params = new HttpParams()
     .set('_sort', this._sort)
     .set('_order', this._order)
@@ -63,6 +66,7 @@ export class ResultsComponent {
     .set('_limit', this.paginatorRequest.rowsPage)
     .set('q', this._q);
 
+    this.service.getCategories();
     this.service.getProducts(params);
   }
 
@@ -105,6 +109,8 @@ export class ResultsComponent {
 
     this.getParams(filtro);
 
+    this.paginador.firstPage();
+
     const params = new HttpParams()
       .set('_sort', this._sort)
       .set('_order', this._order)
@@ -138,6 +144,7 @@ export class ResultsComponent {
     {
       if (this._q === "" || this._q != param){
         this._q = param;
+        this.filter = param;
       }
     }
   }
